@@ -133,10 +133,11 @@ const getAuthTokens = (): IAuthTokens | undefined => {
  * @returns Whether or not the token is undefined, has expired or is about the expire
  */
 const isTokenExpired = (token: Token): boolean => {
-  if (!token) return true
-  const expiresIn =
-      (token)
-  return !expiresIn || expiresIn <= EXPIRE_FUDGE
+  if (!token) {
+    return true
+  }else{
+    return false;
+  }
 }
 
 /**
