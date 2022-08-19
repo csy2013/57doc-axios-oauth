@@ -1,14 +1,14 @@
 {
-  "name": "axios-oauth",
+  "name": "57doc-axios-oauth",
   "version": "1.7.6",
   "description": "Axios interceptor to store, use, and refresh tokens for authentication.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csy2013/axios-oauth"
+    "url": "git+https://github.com/csy2013/57doc-axios-oauth"
   },
-  "homepage": "https://github.com/csy2013/axios-oauth",
+  "homepage": "https://github.com/csy2013/57doc-axios-oauth",
   "author": "Changshengyong.",
   "license": "WTFPL",
   "devDependencies": {
