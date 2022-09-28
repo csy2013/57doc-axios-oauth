@@ -3,7 +3,7 @@ import jwtDecode from 'jwt-decode'
 
 // a little time before expiration to try refresh (seconds)
 const EXPIRE_FUDGE = 10
-export const STORAGE_KEY = `auth-tokens-${process.env.NODE_ENV}`
+export const STORAGE_KEY = `.freedgo.oauth`
 
 type Token = string
 export interface IAuthTokens {
